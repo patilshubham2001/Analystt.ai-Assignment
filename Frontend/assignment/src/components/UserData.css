@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    width: 70%;
+    margin: 50px auto;
+    
+}
+.card-container{
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #fff;
+    
+}
+li{
+    font-weight: bold;
+}
+span{
+    color: grey;
+}
+.btn-details{
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(228, 92, 92);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sub-card-container{
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.sub-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.pagination{
+    width: 35%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 33%;
+}
